@@ -38,7 +38,7 @@ const ChannelCard = ({ channelDetail }) => {
                         {channelDetail?.snippet?.title}
                         <CheckCircle
                             sx={{
-                                fontSize: 12,
+                                fontSize: 14,
                                 color: 'gray',
                                 ml: '5px',
                             }}
