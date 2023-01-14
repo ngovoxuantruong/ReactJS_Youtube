@@ -18,7 +18,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
                 onClick={() => setSelectedCategory(category.name)}
                 style={{
                     background: category.name === selectedCategory && '#FC1503',
-                    color: 'white',
+                    color: 'white', whiteSpace: 'nowrap'
                 }}
                 key={category.name}
             >
